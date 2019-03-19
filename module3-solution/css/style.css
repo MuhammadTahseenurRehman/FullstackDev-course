@@ -1,0 +1,85 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    margin: 20px 0px;
+}
+h2{
+    margin: 0px;
+}
+
+#assignment3_header nav.navbar {
+    background-color: #999 !important;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+}
+#assignment3_header .navbar-default .navbar-brand{
+    color: #000;
+    font-size: 24px;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+.meal_box{
+    position: relative;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.meal_box .meal_title{
+    position: relative;
+    float: right;
+    top: -1px;
+    right: -1px;
+    padding:3px 20px;
+    border: 1px solid #000;
+    min-width: 135px;
+    min-height: 30px;
+}
+
+.meal_title.chicken{background-color: #d59898}
+.meal_title.beef{background-color: #c14543}
+.meal_title.sushi{background-color: #e5d198}
+.meal_title.beef h2{color:#fff}
+
+.meal_box p{
+    padding: 5px 10px 10px;
+    margin: 0px;
+    clear: right;
+}
+
+
+@media (max-width : 767px){  
+    #assignment3_header nav.navbar{
+        margin-bottom: 0px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #000;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    #assignment3_menu{
+        border: 1px solid #000;
+        background-color: #fff;
+        border-bottom: 0px;
+    }
+    #assignment3_menu ul{
+        margin: 0px;
+    }
+    #assignment3_menu ul li{
+        border-bottom: 1px solid #000;
+    }
+    #assignment3_menu ul li:last-child{
+        border-bottom: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #000;
+        font-family: oxygen;
+        font-size: 18px;
+    }
+}
